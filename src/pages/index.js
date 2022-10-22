@@ -1,13 +1,20 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
+import "../components/index.css"
+import { navigate } from "gatsby"
 
-const Index = () => {
+const index = () => {
   return (
-    <div>
-      <Link to="/About">About Page</Link>
-      <h1>My Landing Page</h1>
-      <p>This is my landing page</p>
-    </div>
-  )
+    <header className='hero'>
+      <div className='heroContainer'>
+        <div className='heroInfo'>
+        <h1>Logan E. White</h1>
+        <p>Information Design 250</p>
+        <button className='heroButton' onClick={()=>{navigate("/About")}}>How We Can Help</button>
+        </div>
+      </div>
+    </header>
+  );
 }
-export default Index
+export default index; 
+
