@@ -16,5 +16,6 @@ const index = () => {
     </header>
   );
 }
+
 export default index; 
 
