@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import * as topStyles from "../components/topnav.module.css"
+import * as topStyles from "./components/topnav.module.css"
 
 const topnav = () => {
     return (
