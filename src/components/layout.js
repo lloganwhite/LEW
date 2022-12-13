@@ -9,7 +9,6 @@ const Layout = props => {
             <Header />
             {props.children}
             <BottomNav/>
-
         </div>
     )
 }
