@@ -24,6 +24,7 @@
 }
 @media screen and (max-width: 400px) {
     .navWrapper { 
+        
     }
    .mainNav {
         grid-template-columns: repeat(4,auto);
